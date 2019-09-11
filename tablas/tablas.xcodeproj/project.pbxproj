@@ -12,7 +12,8 @@
 		BC3A0B222326D80E008C4C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3A0B202326D80E008C4C2F /* Main.storyboard */; };
 		BC3A0B242326D810008C4C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3A0B232326D810008C4C2F /* Assets.xcassets */; };
 		BC3A0B272326D810008C4C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3A0B252326D810008C4C2F /* LaunchScreen.storyboard */; };
-		BC3A0B2F2326E1F8008C4C2F /* Contoso_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3A0B2E2326E1F8008C4C2F /* Contoso_logo.png */; };
+		BCCF3CB923297C5D003BD4F2 /* AlumnoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF3CB823297C5D003BD4F2 /* AlumnoTableViewCell.swift */; };
+		BCCF3CBB232982B6003BD4F2 /* Contoso_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BCCF3CBA232982B6003BD4F2 /* Contoso_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		BC3A0B232326D810008C4C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC3A0B262326D810008C4C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC3A0B282326D810008C4C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC3A0B2E2326E1F8008C4C2F /* Contoso_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Contoso_logo.png; path = ../../Contoso_logo.png; sourceTree = "<group>"; };
+		BCCF3CB823297C5D003BD4F2 /* AlumnoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlumnoTableViewCell.swift; sourceTree = "<group>"; };
+		BCCF3CBA232982B6003BD4F2 /* Contoso_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contoso_logo.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,10 @@
 				BC3A0B1E2326D80E008C4C2F /* ViewController.swift */,
 				BC3A0B202326D80E008C4C2F /* Main.storyboard */,
 				BC3A0B232326D810008C4C2F /* Assets.xcassets */,
-				BC3A0B2E2326E1F8008C4C2F /* Contoso_logo.png */,
+				BCCF3CBA232982B6003BD4F2 /* Contoso_logo.png */,
 				BC3A0B252326D810008C4C2F /* LaunchScreen.storyboard */,
 				BC3A0B282326D810008C4C2F /* Info.plist */,
+				BCCF3CB823297C5D003BD4F2 /* AlumnoTableViewCell.swift */,
 			);
 			path = tablas;
 			sourceTree = "<group>";
@@ -125,8 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3A0B2F2326E1F8008C4C2F /* Contoso_logo.png in Resources */,
 				BC3A0B272326D810008C4C2F /* LaunchScreen.storyboard in Resources */,
+				BCCF3CBB232982B6003BD4F2 /* Contoso_logo.png in Resources */,
 				BC3A0B242326D810008C4C2F /* Assets.xcassets in Resources */,
 				BC3A0B222326D80E008C4C2F /* Main.storyboard in Resources */,
 			);
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC3A0B1F2326D80E008C4C2F /* ViewController.swift in Sources */,
+				BCCF3CB923297C5D003BD4F2 /* AlumnoTableViewCell.swift in Sources */,
 				BC3A0B1D2326D80E008C4C2F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
