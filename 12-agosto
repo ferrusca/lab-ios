@@ -1,0 +1,50 @@
+Ether: espacio aereo donde se puede usar una señal
+
+*Satelital
+*Celular
+	GSM
+	EDGE
+	3G, 4G, 4.5G, 5G
+	5G - resuelve problema de roaming
+	WIFI
+		mesh
+*Bluetooth
+*Radios 
+*Microondas
+*FM / AM
+*UHF
+
+Pasos para la creacion de un app
+- Objetivo
+- Requerimientos
+- UI (mockups)
+- Diag. de flujo
+- UX
+- Devices
+
+Segue: transicion entre view controllers
+
+prepare() : metodo que se va a ejecutar antes de navegar a otra vista
+
+Para modales: present() - dismiss()
+Para navigationCtrl: push y popViewCtrl(animated: true)
+
+let sofia = Ingenieria()
+let pepe = Derecho()
+//pepe quiere saber calculo vectorial, entonces:
+pepe.alumnoIngenieria = sofia //solucion no tan optima
+
+
+//protocol: contrato que quien va a utilizar el protocolo debe implementarlo, se desarrollan en:
+-Swift: son obligatorios - como se va a interactuar
+-Objetive-c: opcionales - por lo general se usan para las vistas
+
+Extensiones: son como los prototipos en JS
+
+PROTOCOLOS PARA UITableView, UITableViewController
+- UITableViewDataSource
+- UITableViewDelegate
+
+Una vez implementadas las funciones de UIViewDataSource para mostrar la información, hay que delegar al ViewController la funcionalidad de dichas funciones, para que ahora si aparezcan en el TableView de nuestra aplicacion
+
+Polimorfismo parmetrico: se aplica sobre funciones
