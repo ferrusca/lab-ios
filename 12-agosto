@@ -39,7 +39,16 @@ pepe.alumnoIngenieria = sofia //solucion no tan optima
 -Swift: son obligatorios - como se va a interactuar
 -Objetive-c: opcionales - por lo general se usan para las vistas
 
-Extensiones: son como los prototipos en JS
+Extensiones: son como los prototipos en JS: 
+ejemplo:
+
+extension String {
+	func loud(){
+		print(self.uppercased())
+	}
+}
+
+"ejemplo".loud() //Imprime "EJEMPLO"
 
 PROTOCOLOS PARA UITableView, UITableViewController
 - UITableViewDataSource
@@ -48,3 +57,6 @@ PROTOCOLOS PARA UITableView, UITableViewController
 Una vez implementadas las funciones de UIViewDataSource para mostrar la información, hay que delegar al ViewController la funcionalidad de dichas funciones, para que ahora si aparezcan en el TableView de nuestra aplicacion
 
 Polimorfismo parmetrico: se aplica sobre funciones
+
+tableView: rows
+collectionView: item
