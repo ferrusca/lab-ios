@@ -48,7 +48,6 @@
 				7931507B9046AE6929DD7062 /* Pods-firebase_cm.debug.xcconfig */,
 				D188A95B264E57CF0C4E991E /* Pods-firebase_cm.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -120,6 +119,9 @@
 		BCD5219A23677A470016EFF0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					userAuthenticated,
+				);
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = ios;
